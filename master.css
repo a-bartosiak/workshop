@@ -20,6 +20,10 @@ a {
     text-transform: uppercase;
 }
 
+a:hover {
+  background-color: #184947
+}
+
 span {
     color: #24BAA0;
     font-weight: bold;
@@ -403,7 +407,7 @@ sup {
     height: 35px;
     background-color: #00CEAE;
     text-align: center;
-    border-radius: 13%;
+    border-radius: 7%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -476,18 +480,27 @@ fieldset {
     padding: 5px;
 }
 
-.checkbox {
-
+.formOk {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #00CEAE;
+  padding: 2px;
 }
 
 .form2 {
     float: left;
-    margin-left: 120px;
-    margin-top: 0;
+    margin-left: 100px;
+    margin-top: -30px;
 }
 
 ul {
     list-style-type: none;
+}
+
+.form2Li {
+  float: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .form2 li {
@@ -500,7 +513,6 @@ ul {
 .buttonForm {
     width: 270px;
     color: white;
-    /*margin: 0 auto;*/
     text-transform: uppercase;
     padding: 15px;
     background-color: #24BAA0;
@@ -508,6 +520,10 @@ ul {
     display: block;
     font-size: 24px;
     border: none;
+}
+
+.buttonForm:hover {
+  background-color: #184947
 }
 
 footer {
