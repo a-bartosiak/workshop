@@ -1,1 +1,1 @@
-# hello-world
+# Workshop: Sit on my chair
